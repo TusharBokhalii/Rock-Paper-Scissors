@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: darkslateblue;
+    transition: all 0.5s;
+}
+h1{
+    background-color: darkcyan;
+    padding: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    transition: all 0.5s;
+}
+.Images{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 60px;
+}
+.choice{
+    width: 150px;
+    height: 150px;
+    margin: 0 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.choice:hover{
+    background-color: black;
+}
+img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.winner-Points{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+#You,#Com{
+   margin: 0px 50px;
+   font-size: 22px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Winner{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.Winner p{
+    font-size: 20px;
+    border: 1px solid black;
+    display: inline;
+    padding: 15px 45px;
+    border-radius: 7px;
+    background-color: darkblue;
+    user-select: none;
+    transition: all 0.5s;
+}
